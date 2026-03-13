@@ -1,0 +1,68 @@
+body{
+    background-color: white;
+}
+
+.section{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:40px;
+    transition: opacity 0.5s ease;
+    opacity:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+    text-align: center;
+
+    -webkit-mask-image: linear-gradient(
+        to bottom,
+        transparent,
+        black 10%,
+        black 90%,
+        transparent
+    );
+
+    mask-image: linear-gradient(
+        to bottom,
+        transparent,
+        black 10%,
+        black 90%,
+        transparent
+    );
+}
+
+.section:nth-child(1){
+    background:#222;
+    color:white;
+}
+
+.section:nth-child(2){
+    background:#ddd;
+}
+
+#inicio{
+    background-image: url('img/ovelha.png');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+#logo{
+    margin: 0 auto;
+    margin-bottom: 50vh;
+    width: 80vw;
+    height: 50vh;
+    background-image: url('img/logo.png');
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+#jesus{
+    background-image: url('img/cristo.png');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
